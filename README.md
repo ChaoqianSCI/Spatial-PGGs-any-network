@@ -22,8 +22,22 @@ This includes a Matlab function for calculating the critical synergy factor of s
 # Installation guide
 - Simply download Matlab and PyCharm in their official websites. Matlab may need costly subscription.
 
-- Install the required packages if there is any error report.
+- Install the required packages within these softwares if there is any error report.
 
+- Typical install time may be within one hour. 
+
+# Demo of Matlab
+- For numerical solutions of the theoretical predictions on specific networks, refer to demo.m.
+- It shows an example of the $n=9$ star graph.
+- Please put demo.m and everything_r_bc_accu.m in the same fold and run demo.m.
+- The outcome should be the critical synergy factors for cooperation success in spatial PGGs (and critical benefit-to-cost ratio in DGs) across all model details.
+- Typical run time should be within 2 seconds.
+
+# Demo of Python
+- For agent-based simulations on star graphs, refer to pgggraph_PC.py and pgggraph_DB.py, depending on the update rule you need.
+- You may need to create a project in Python, with a "main.py" file. You can add pgggraph_PC.py and pgggraph_DB.py into your project and run them.
+- The outcome should be the average stationary cooperation fraction as a function of synergy factor $r$.
+- Typical run time should be more than 24 hours, depending on the performance of your computer. This is a parallel program and may take up all of your computer's CPU resources.
 
 # Q&A
 For any question about this program, please contact
