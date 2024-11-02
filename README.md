@@ -14,6 +14,10 @@ This includes a Matlab function for calculating the critical synergy factor of s
 
 - pgggraph_DB.py - A python program for agent-based simulations of spatial PGGs using averaged payoffs under the DB rule.
 
+# System requirements
+- We use Matlab 2022a and Python 3.9 in PyCharm.
+- We used the mentioned softwares in Windows 11.
+
 # Q&A
 For any question about this program, please contact
 
