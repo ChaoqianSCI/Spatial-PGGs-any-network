@@ -16,7 +16,14 @@ This includes a Matlab function for calculating the critical synergy factor of s
 
 # System requirements
 - We use Matlab 2022a and Python 3.9 in PyCharm.
+  
 - We used the mentioned softwares in Windows 11.
+
+# Installation guide
+- Simply download Matlab and PyCharm in their official websites. Matlab may need costly subscription.
+
+- Install the required packages if there is any error report.
+
 
 # Q&A
 For any question about this program, please contact
